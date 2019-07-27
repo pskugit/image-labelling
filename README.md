@@ -24,6 +24,7 @@ At start time, the program shows the instructions and then asks the user to spec
 One can then quickly label all the source images.
 ![](/screenshots/la3.png?raw=true "Optional Title")
 
+At first start, the program will create an lm.ini file where the user settings can be stored and few additional parameters may be set.
 
 ## .EXE
 
