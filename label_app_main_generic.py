@@ -167,7 +167,7 @@ class MainWindow(QMainWindow):
         self.progress_count = 0
         self.initial_count = len(files)
 
-        self.setWindowTitle("Label Machine")
+        self.setWindowTitle("Image label app")
 
         self.layout = main_gui_generic.Ui_MainWindow()
         self.layout.setupUi(self)
@@ -470,6 +470,7 @@ class Controller(QtCore.QObject):
 
     def show_instructions(self):
         self.instructions = Instructions()
+        self.instructions.setWindowTitle("Image label app")
         self.instructions.switch_window.connect(self.show_folderchoice)
         self.instructions.save_config.connect(self.change_dontshow_config)
         self.instructions.show()
@@ -478,6 +479,7 @@ class Controller(QtCore.QObject):
         if show_instructions:
             self.instructions.close()
         self.folder_choice = FolderChoice()
+        self.folder_choice.setWindowTitle("Image label app")
         self.folder_choice.set_default_paths()
         self.folder_choice.switch_window.connect(self.show_main)
         self.folder_choice.save_config.connect(self.change_path_config)
