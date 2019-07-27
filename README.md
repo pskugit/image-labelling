@@ -2,7 +2,7 @@
 > a stand alone program to sort images from a source folder into one of three specified destinatin folder.
 
 This program was made to ease the labelling process for several ML projects.
-The sorted image folders can then for example easily be loaded by PyTorch's ImageFOlder class. [https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder]
+The sorted image folders can then for example easily be loaded by PyTorch's ImageFolder class. [https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder]
 
 ## Prerequisites
 
