@@ -22,7 +22,7 @@ At start time, the program shows the instructions and then asks the user to spec
 ![](/screenshots/la1.png?raw=true "Optional Title")
 
 One can then quickly label all the source images.
-![](/screenshots/la2.jpg?raw=true "Optional Title")
+![](/screenshots/la3.png?raw=true "Optional Title")
 
 
 ## .EXE
