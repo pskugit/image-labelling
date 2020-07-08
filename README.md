@@ -1,8 +1,9 @@
 # Image labelling application
-> a stand alone program to sort images from a source folder into one of three specified destinatin folder.
+> a stand alone program to sort images from a source folder into one of three specified destination folders.
 
 This program was made to ease the labelling process for several ML projects.
-The sorted image folders can then for example easily be loaded by PyTorch's ImageFolder class. [https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder]
+The sorted image folders can then for example easily be loaded by PyTorch's ImageFolder class. 
+[https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder]
 
 ## Prerequisites
 
@@ -29,7 +30,7 @@ At first start, the program will create an lm.ini file where the user settings c
 ## .EXE
 
 The program is also available as ready compiled executable. 
-(Build with pyinstaller)
+(Built with pyinstaller)
 
 
 ## Meta
